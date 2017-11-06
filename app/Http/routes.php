@@ -26,3 +26,5 @@ Route::get('/ajaxLead', ['as' =>'cms.getLeadsAjax', 'uses' => 'LeadController@aj
 Route::post('/leads-search',['as' => 'cms.lead_search', 'uses'=>'LeadController@postSearch']);
 Route::get('/search-result', ['as' => 'cms.result' , 'uses'=>'LeadController@getResult']);
 Route::post('/download', ['as' => 'cms.download', 'uses' => 'LeadController@postDownload']);
+
+Route::get('/test',['uses' => 'LeadController@getTest']);
