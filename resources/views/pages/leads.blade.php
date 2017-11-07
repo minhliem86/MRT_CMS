@@ -64,6 +64,8 @@
                 endDate: '1'
             });
             let datatable = $('#table-leads').DataTable({
+                iDisplayLength: 20,
+                lengthChange: false,
                 processing: true,
                 serverSide: true,
                 ajax: {
@@ -84,7 +86,6 @@
                     {data: 'phone', name : 'phone'},
                     {data: 'email', name : 'email'},
                 ],
-                iDisplayLength: 20
             })
             $('.form-search').on('submit', function(e) {
                 datatable.draw();

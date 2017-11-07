@@ -27,8 +27,15 @@
     <!-- DATATABLE -->
     <link rel="stylesheet" href="{{asset('public/assets')}}/plugins/dataTable/datatables.min.css">
     <link rel="stylesheet" href="{{asset('public/assets')}}/plugins/dataTable/DataTables-1.10.16/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="{{asset('public/assets')}}/plugins/dataTable/Buttons-1.4.2/css/buttons.bootstrap4.min.css">
+
     <script src="{{asset('public/assets')}}/plugins/dataTable/datatables.min.js"></script>
-    <script src="{{asset('public/assets')}}/plugins/dataTable/DataTables-1.10.16/js/dataTables.bootstrap4.min.js"></script>
+
+    <script src="{{asset('public/assets')}}/plugins/dataTable/Buttons-1.4.2/js/buttons.bootstrap4.min.js"></script>
+    <script src="{{asset('public/assets')}}/plugins/dataTable/Buttons-1.4.2/js/buttons.flash.min.js"></script>
+    <script src="{{asset('public/assets')}}/plugins/dataTable/JSZip-2.5.0/jszip.min.js"></script>
+    <script src="{{asset('public/assets')}}/plugins/dataTable/pdfmake-0.1.32/pdfmake.min.js"></script>
+    <script src="{{asset('public/assets')}}/plugins/dataTable/pdfmake-0.1.32/vfs_fonts.js"></script>
 
     <!-- DATE PICKER -->
     <link rel="stylesheet" href="{{asset('public/assets')}}/plugins/datepicker/css/bootstrap-datepicker3.min.css">
